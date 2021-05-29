@@ -9,9 +9,9 @@
 </head>
 <body>
 <!-- Navbar, from w3css "Start Page" template -->
-<div class="w3-top">
+<div class="w3-top" style="-moz-box-shadow: 1px 1px 3px 2px #f4a900;box-shadow:1px 1px 3px 2px #f4a900;-webkit-box-shadow: 1px 1px 3px 2px #f4a900;">
     <div class="w3-bar custom-color-text-with-background w3-card w3-left-align w3-large">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large custom-color-background hover-custom-color-background">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large custom-color-background-AAA hover-custom-color-background">Home</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large hover-custom-color-background">About Us</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large hover-custom-color-background">Books</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large hover-custom-color-background">Get Started</a>
@@ -21,15 +21,161 @@
 </div>
 
 <!-- Header, from w3css "Start Page" Template -->
-<header class="w3-container custom-color-text-with-background w3-center" style="padding:128px 16px">
-    <img src ="logo2.png" width = 200px height = 200px>
+<header class="w3-container custom-color-text-with-background w3-center" style="padding:128px 16px 60px">
+    <img src ="logo2.png" width = 250px height = 250px>
     <h1 class="w3-margin w3-jumbo">Book Program Discussion</h1>
-    <div>
-        <hr style = padding-bottom:20px>
+    <div style="padding-bottom:25px">
+        <hr style = "height:2px;border:none;background-color:#FFFFFF;width:82%;margin:auto;" >
     </div>
-    <button class="w3-button custom-color-background w3-padding-large w3-large w3-margin-top">Register</button>
+    <button class="w3-button custom-color-background w3-padding-large w3-large w3-margin-top" style="border-radius:10px">Register</button>
 </header>
 
+<div id="popup" class="w3-modal" style="z-index:4">
+    <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-padding w3-red">
+       <span onclick="document.getElementById('popup').style.display='none'"
+             class="w3-button w3-red w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
+            <h2>Share File</h2>
+        </div>
+        <div class="w3-panel">
+            <label>To</label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text">
+            <label>From</label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text">
+            <label>File</label>
+            <input class="w3-input w3-border w3-margin-bottom" placeholder="File" type="text">
+            <input class="w3-input w3-border w3-margin-bottom" style="height:150px" placeholder="Message">
+            <div class="w3-section">
+                <a class="w3-button w3-red" onclick="document.getElementById('popup').style.display='none'">Cancel  <i class="fa fa-remove"></i></a>
+                <a class="w3-button w3-light-grey w3-right" onclick="document.getElementById('popup').style.display='none'">Share  <i class="fa fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding-top: 20px">
+    <table style="width:96%; margin:auto">
+        <tr>
+            <td style="width:32%">
+                <div>
+                    <h3>Latest News</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </td>
+            <td style="width:32%">
+                <div>
+                    <h3>This month's books:</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </td>
+            <td style="width:32%">
+                <div>
+                    <h3>misc</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <h1>PORN FRIDAYS</h1>
+    <h2>PORN SATURDAYS</h2>
+    <h3>PORN SUNDAYS</h3>
+    <h4>PORN MONDAYS</h4>
+    <h1>DONT DO THAT SHIT</h1>
+    <h1>CORNHUB</h1>
+    <h1>JOHN LENNON & YOKO ONO's PLASTIC BAND THINGY</h1>
+    <h1>PORN FRIDAYS</h1>
+    <h2>PORN SATURDAYS</h2>
+    <h3>PORN SUNDAYS</h3>
+    <h4>PORN MONDAYS</h4>
+    <h1>DONT DO THAT SHIT</h1>
+    <h1>CORNHUB</h1>
+    <h1>JOHN LENNON & YOKO ONO's PLASTIC BAND THINGY</h1>
+    <h1>PORN FRIDAYS</h1>
+    <h2>PORN SATURDAYS</h2>
+    <h3>PORN SUNDAYS</h3>
+    <h4>PORN MONDAYS</h4>
+    <h1>DONT DO THAT SHIT</h1>
+    <h1>CORNHUB</h1>
+    <h1>JOHN LENNON & YOKO ONO's PLASTIC BAND THINGY</h1>
+    <h1>PORN FRIDAYS</h1>
+    <h2>PORN SATURDAYS</h2>
+    <h3>PORN SUNDAYS</h3>
+    <h4>PORN MONDAYS</h4>
+    <h1>DONT DO THAT SHIT</h1>
+    <h1>CORNHUB</h1>
+    <h1>JOHN LENNON & YOKO ONO's PLASTIC BAND THINGY</h1>
+</footer>
+
+<script>
+    var openInbox = document.getElementById("myBtn");
+    openInbox.click();
+
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    function myFunc(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            x.previousElementSibling.className += " w3-red";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+            x.previousElementSibling.className =
+                x.previousElementSibling.className.replace(" w3-red", "");
+        }
+    }
+
+    doShare("File1")
+    function doShare(fileName) {
+        var i;
+        var x = document.getElementsByClassName("file");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x = document.getElementsByClassName("test");
+        for (i = 0; i < x.length; i++) {
+            x[i].className = x[i].className.replace(" w3-light-grey", "");
+        }
+        document.getElementById(fileName).style.display = "block";
+        event.currentTarget.className += " w3-light-grey";
+    }
+</script>
+
+<script>
+    var openTab = document.getElementById("firstTab");
+    openTab.click();
+</script>
 
 </body>
 </html>

@@ -3,12 +3,12 @@
 }
 
 .custom-color-text-with-background {
-    color:#F4A900;
-    background-color:#3a3a3a;
+    color:#F4A900!important;
+    background-color:#3a3a3a!important;
 }
 
 .hover-custom-color-background:hover {
-    color:#3a3a3a!important;
+    color:#212121!important;
     background-color:#F4A900!important;
 }
 
@@ -17,6 +17,19 @@
     background-color:#F4A900!important;
 }
 
+.custom-color-background-AAA {
+    color:#212121!important;
+    background-color:#F4A900!important;
+}
+
 .custom-contrast-color {
     color:#004BF4
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*-moz-box-shadow: 1px 1px 3px 2px #f4a900;*/
+    /*-webkit-box-shadow: 1px 1px 3px 2px #f4a900;*/
+    /*box-shadow:         1px 1px 3px 2px #f4a900;*/
 }
