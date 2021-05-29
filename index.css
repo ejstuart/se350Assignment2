@@ -1,0 +1,22 @@
+.custom-color {
+    color:#F4A900
+}
+
+.custom-color-text-with-background {
+    color:#F4A900;
+    background-color:#3a3a3a;
+}
+
+.hover-custom-color-background:hover {
+    color:#3a3a3a!important;
+    background-color:#F4A900!important;
+}
+
+.custom-color-background {
+    color:#3a3a3a!important;
+    background-color:#F4A900!important;
+}
+
+.custom-contrast-color {
+    color:#004BF4
+}

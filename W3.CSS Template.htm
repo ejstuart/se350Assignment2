@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html style=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="W3.CSS%20Template_files/w3.css">
+<link rel="stylesheet" href="W3.CSS%20Template_files/w3-theme-red.css">
+<link rel="stylesheet" href="W3.CSS%20Template_files/font-awesome.css">
+</head><body style="margin-bottom: 27px !important;">
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>BEAUTIFUL RESPONSIVE WEB SITES</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">BUILT WITH W3.CSS</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-theme-dark w3-hover-red" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">LEARN W3.CSS</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="https://www.w3schools.com/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Responsive</h3><br>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Built-in responsiveness</p>
+  <p>Mobile first fluid grid</p>
+  <p>Fits any screen sizes</p>
+  <p>PC Tablet and Mobile</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Standard CSS</h3><br>
+  <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Standard CSS only</p>
+  <p>Easy to learn</p>
+  <p>No need for jQuery</p>
+  <p>No JavaScript library</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Design</h3><br>
+  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Paper like design</p>
+  <p>Bold colors and shadows</p>
+  <p>Equal across platforms</p>
+  <p>Equal across devices</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-container">
+<hr>
+<div class="w3-center">
+  <h2>Color Classes</h2>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col w3-container m2 w3-red"><p>Red</p></div>
+  <div class="w3-col w3-container m2 w3-blue"><p>Blue</p></div>
+  <div class="w3-col w3-container m2 w3-blue-grey"><p>Blue Grey</p></div>
+  <div class="w3-col w3-container m2 w3-teal"><p>Teal</p></div>
+  <div class="w3-col w3-container m2 w3-yellow"><p>Yellow</p></div>
+  <div class="w3-col w3-container m2 w3-orange"><p>Orange</p></div>
+</div>
+
+<hr>
+<div class="w3-center">
+  <h2>Built-In Responsiveness</h2>
+  <p class="w3-large">Resize the page to see the effect!</p>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-half w3-container w3-blue w3-border">
+    <h5>w3-half</h5>  
+    <p>The w3-half class uses half (50%) of the screen window.</p>
+    <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+  </div>
+  <div class="w3-half w3-container">
+    <h5>w3-half</h5>  
+  </div>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-third w3-container w3-green">
+    <h5>w3-third</h5>  
+    <p>The w3-third class uses one third (33.33%) of the screen window.</p>
+    <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+  </div>
+  <div class="w3-third w3-container">
+    <h5>w3-third</h5>  
+  </div>
+  <div class="w3-third w3-container">
+    <h5>w3-third</h5>  
+  </div>
+</div>
+<br>
+
+<div class="w3-row w3-border">
+  <div class="w3-quarter w3-container w3-red">
+    <h5>w3-quarter</h5>  
+    <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
+    <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-quarter</h5>  
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-quarter</h5>  
+  </div>
+  <div class="w3-quarter w3-container">
+    <h5>w3-quarter</h5>  
+  </div>
+</div> 
+     
+<div class="w3-center">
+  <h2>Containers</h2>
+  <p>Use containers to create headers, sections and footers.</p>
+</div>   
+
+<header class="w3-container w3-blue-grey">
+  <h2>Header</h2>
+</header>
+
+<div class="w3-padding w3-white w3-display-container">
+  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-remove"></i></span>
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom,
+  with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia,
+  its history going back to its founding by the Romans, who named it Londinium.</p>
+  <p>By the way, you can add a close icon to all containers if you want the ability to hide them. Look to your right!</p>
+</div>
+
+<footer class="w3-container w3-blue-grey">
+  <h5>Footer</h5>
+  <p class="w3-opacity">Footer information goes here</p>
+</footer>
+
+<hr>
+<div class="w3-center">
+  <h2>Color Themes</h2>
+  <p>The color themes have been designed to work harmoniously with each other.</p>
+</div>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-half">
+<div class="w3-card white">
+  <div class="w3-container w3-indigo">
+    <h3>Theme Indigo</h3>
+  </div>
+  <div class="w3-container">
+  <h3 class="w3-text-indigo">Movies 2014</h3>
+  </div>
+  <ul class="w3-ul w3-border-top">
+    <li>
+      <h3>Frozen</h3>
+      <p>The response to the animations was ridiculous</p>
+    </li>
+    <li>
+      <h3>The Fault in Our Stars</h3>
+      <p>Touching, gripping and genuinely well made</p>
+    </li>
+    <li>
+      <h3>The Avengers</h3>
+      <p>A huge success for Marvel and Disney</p>
+    </li>
+  </ul>
+  <div class="w3-container w3-indigo w3-large"><span class="w3-right">Next</span></div>
+</div>
+</div>
+
+<div class="w3-half">
+<div class="w3-card white">
+  <div class="w3-container w3-theme">
+    <h3>Theme</h3>
+  </div>
+  <div class="w3-container">
+  <h3 class="w3-text-theme">Movies 2014</h3>
+  </div>
+  <ul class="w3-ul w3-border-top">
+    <li>
+      <h3>Frozen</h3>
+      <p>The response to the animations was ridiculous</p>
+    </li>
+    <li>
+      <h3>The Fault in Our Stars</h3>
+      <p>Touching, gripping and genuinely well made</p>
+    </li>
+    <li>
+      <h3>The Avengers</h3>
+      <p>A huge success for Marvel and Disney</p>
+    </li>
+  </ul>
+  <div class="w3-container w3-theme w3-large"><span class="w3-right">Next</span></div>
+</div>
+</div>
+</div>
+
+<div class="w3-container w3-center">
+  <hr>
+  <h3>Paper-like Cards with Shadows</h3>
+</div>
+
+<div class="w3-row-padding"> 
+
+<div class="w3-third">
+<div class="w3-card">
+  <img src="W3.CSS%20Template_files/car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-card</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="W3.CSS%20Template_files/car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-card-4</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="W3.CSS%20Template_files/car.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+  <p>w3-card-4</p>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <h2>Tables</h2>
+    <p w3-class="w3-large">Don't worry. W3.CSS takes care of your tables.</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+</tr>
+<tr class="w3-white">
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+</tr>
+<tr>
+  <td>Adam</td>
+  <td>Johnson</td>
+  <td>67</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<hr>
+<h2 class="w3-center">Forms and Lists</h2>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-half">
+<form class="w3-container w3-card-4">
+  <h2>Input Form</h2>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required="">
+    <label>Name</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required="">
+    <label>Email</label>
+  </div>
+  <div class="w3-section">      
+    <input class="w3-input" type="text" required="">
+    <label>Subject</label>
+  </div>
+
+  <div class="w3-row">
+  <div class="w3-half">
+    <input id="milk" class="w3-check" type="checkbox" checked="checked">
+    <label>Milk</label>
+    <br>
+    <input id="sugar" class="w3-check" type="checkbox">
+    <label>Sugar</label>
+    <br>
+    <input id="lemon" class="w3-check" type="checkbox" disabled="disabled">
+    <label>Lemon (Disabled)</label>
+    <br><br>
+  </div>
+
+  <div class="w3-half">
+    <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked="checked">
+    <label>Male</label>
+    <br>
+    <input id="female" class="w3-radio" type="radio" name="gender" value="female">
+    <label>Female</label>
+    <br>
+    <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled="disabled">
+    <label> Don't know (Disabled)</label>
+  </div>
+  </div>
+</form>
+</div>
+<div class="w3-half">
+<div class="w3-card-4 w3-container">
+<h2>Lists</h2>
+<ul class="w3-ul w3-margin-bottom">
+  <li>Jill</li>
+  <li>Eve</li>
+  <li>Adam</li>
+</ul>
+<br>
+<ul class="w3-ul w3-border w3-hoverable">
+  <li class="w3-theme">Jill</li>
+  <li>Eve</li>
+  <li>Adam</li>
+  <li>Steve</li>
+</ul>
+<br>
+</div>
+</div>
+</div>
+<hr>
+
+<h2 class="w3-center">Progress Bars</h2>
+<div class="w3-container">
+
+<div class="w3-light-grey">
+  <div id="myBar" class="w3-container w3-padding w3-theme" style="width:1%">0</div>
+</div><br>
+
+<button class="w3-btn w3-theme" onclick="move()">Click Me</button> 
+</div>
+<hr>
+
+<h2 class="w3-center">Slideshows</h2>
+<div class="w3-content" style="max-width:800px;position:relative">
+
+<img class="mySlides w3-animate-opacity" src="W3.CSS%20Template_files/snow.jpg" style="width: 100%; display: block;">
+<img class="mySlides w3-animate-opacity" src="W3.CSS%20Template_files/lights.jpg" style="width: 100%; display: none;">
+<img class="mySlides w3-animate-opacity" src="W3.CSS%20Template_files/mountains.jpg" style="width: 100%; display: none;">
+<img class="mySlides w3-animate-opacity" src="W3.CSS%20Template_files/forest.jpg" style="width: 100%; display: none;">
+
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">❯</a>
+</div>
+
+<div class="w3-container">
+<hr>
+<h2 class="w3-center">Navigation</h2>
+
+<div class="w3-bar w3-theme">
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+      Dropdown <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<h2 class="w3-center">Accordions</h2>
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
+<div id="Demo1" class="w3-hide">
+  <div class="w3-container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+ex ea commodo consequat.</p>
+  </div>
+</div>
+<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 2</button>
+<div id="Demo2" class="w3-hide">
+  <a href="#" class="w3-button w3-block w3-left-align">Link 1</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 2</a>
+  <a href="#" class="w3-button w3-block w3-left-align">Link 3</a>
+</div>
+<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 3</button>
+<div id="Demo3" class="w3-hide w3-black">
+  <div class="w3-container">
+    <p>Accordion with Images:</p>
+    <img src="W3.CSS%20Template_files/snow.jpg" style="width:30%;" class="w3-animate-zoom">
+    <p>French Alps</p>
+  </div>
+</div>
+
+<hr>
+<h2 class="w3-center">Tabs</h2>
+<div class="w3-border">
+<div class="w3-bar w3-theme">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16 w3-theme-dark" onclick="openCity(event,'London')">London</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">Paris</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="w3-container city w3-animate-opacity" style="display: block;">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<div id="Paris" class="w3-container city w3-animate-opacity" style="display: none;">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+  <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+</div>
+
+<div id="Tokyo" class="w3-container city w3-animate-opacity" style="display: none;">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+</div>
+</div>
+
+<hr>
+<h2 class="w3-center">Buttons</h2>
+<div class="w3-center">
+  <br>
+  <a class="w3-button w3-theme">Button</a>
+  <a class="w3-button w3-theme">Button</a>
+  <a class="w3-button w3-theme-d3 w3-disabled">Button</a>
+  <br><br>
+  <a class="w3-button w3-circle w3-large w3-black"><i class="fa fa-plus"></i></a>
+  <a class="w3-button w3-circle w3-large w3-theme"><i class="fa fa-plus"></i></a>  
+  <a class="w3-button w3-circle w3-large w3-card-4"><i class="fa fa-plus"></i></a>
+</div>
+<br>
+<div class="w3-center">
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-theme">Dropdown <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<hr>
+<div class="w3-center">
+  <h2>Pagination</h2>
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">«</a>
+      <a href="#" class="w3-bar-item w3-button w3-theme w3-hover-theme">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">5</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-theme">»</a>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark">
+  <h3>Footer</h3>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-theme w3-padding">Go To Top</span>&nbsp;   
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>Remember to check out our&nbsp;&nbsp;<a href="https://www.w3schools.com/w3css/w3css_references.asp" class="w3-btn w3-theme" target="_blank">W3.CSS Reference</a></p>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-theme-dark", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-theme-dark";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="W3.CSS%20Template_files/s3downbar.css"><link rel="stylesheet" type="text/css" href="W3.CSS%20Template_files/contextmenu.css"><link rel="stylesheet" type="text/css" href="W3.CSS%20Template_files/tooltip.css"><div id="s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha" style="box-sizing: initial !important; position: fixed; white-space: nowrap; width: 100% !important; left: 0px; bottom: 0px; border-top: 1px solid rgb(153, 153, 153); transform-origin: left bottom 0px; z-index: 2147483647; margin: 0px; padding: 2px 0px; background-color: rgb(238, 238, 238); color: rgb(34, 34, 34); display: flex !important; transform: scale(1) !important;"><style type="text/css" media="print">#s3downbar-ibmbeeacmbeeaebmfjpmnlgkhoejinha { display: none !important; }</style><div style="box-sizing: initial !important; position: absolute !important;" id="s3downbar_resize_pane" is_top="false"><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div><div style="box-sizing: initial !important; color: rgb(34, 34, 34) !important; position: relative !important; order: 4 !important;" class="s3dmBox" id="s3downbar_hide_button" is_hidden="false"><div id="s3downbar_hide_button_img" style="box-sizing: initial !important; background-image: url(&quot;moz-extension://d09d8c75-e927-4feb-b494-e85fb7b94c59/skin/s3dm_icons.png&quot;) !important; display: inline-block !important;"></div><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div style="box-sizing: initial !important;" class="tooltipText">Hide Download Bar</div><div style="box-sizing: initial !important;" class="tooltipText">Ctrl + Shift + Z = Show/Hide Download Bar</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div><div style="box-sizing: initial !important; color: rgb(34, 34, 34) !important; position: relative !important;" class="s3dmBox" id="s3downbar_main_menu_button" is_hidden="false"><img style="box-sizing: initial !important;" src="W3.CSS%20Template_files/logo16.png"><span style="box-sizing: initial !important;">Downloads</span><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div style="box-sizing: initial !important;" class="tooltipText">Download Manager (S3)</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div><div style="box-sizing: initial !important; color: rgb(34, 34, 34) !important; position: relative !important; order: 2 !important;" class="s3dmBox" id="s3downbar_clear_button" is_hidden="false">Clear<div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div style="box-sizing: initial !important;" class="tooltipText">Left Click: Clear All Finished</div><div style="box-sizing: initial !important;" class="tooltipText">Right Click: Undo last clear</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div><div style="box-sizing: initial !important; color: rgb(34, 34, 34) !important; position: relative !important; order: 1 !important;" class="s3dmBox" id="s3downbar_holder_summary_progress" is_hidden="false"><div style="box-sizing: initial !important;">0%</div><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div style="box-sizing: initial !important;" class="tooltipText">Download History</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div><div style="box-sizing: initial !important;" id="s3downbar_download_data_listbox"><div style="box-sizing: initial !important; max-height: 23px !important;" id="s3downbar_download_data_listbox_scroll" list_count="3"><div style="box-sizing: initial !important;" id="s3downbar_download_data_list_empty">Download list is empty</div><div id="s3db_ECCBC87E4B5CE2FE28308FD9F2A7BAF3" class="download_data_box db_finishedHbox" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;" click_handle="finished_click_handle">
+		<div class="download_data_box_iframe_box"><div id="s3downbar_download_box_iframe" is_hidden="true" class="download_data_box_iframe"></div></div>
+		<div id="s3downbar_download_box_progressremainder" class="download_data_box_progressremainder" is_hidden="true"></div>
+		<div id="s3downbar_download_box_progress" class="download_data_box_progress" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important; width: 100% !important;" is_hidden="true"></div>
+		<div id="s3downbar_download_box_data" class="download_data_box_data">
+			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" id="s3downbar_download_box_img" class="download_data_box_img" style="background: rgba(0, 0, 0, 0) url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQ0lEQVQ4jbWTz0vCYBjH/VfNUMRShOjQqZDosM05tyliXuaP4wgiCXbpIMyQUUJNBMcMIX8Myanvrt8u8dJwpWAdPqfn5fO8z/d93lCYYbAPoX8THLCsj50FiXweT4MB3qZTHw/dLg45brvgrt1G17KQU1WKoKoYOQ6um83fBaflMpaEIF0sbhy8ajSwWK+REMVgQYRl8WxZuNV1WowLAmK5HM2k0+/jvtMJFmSqVXysVogLAsIMgyNRhOO6sCcTRL5CPCmVsPI83y2o4LJeh7NY0I5JScLS8/A+n1NBulCASwiSkhQwAsfhxbZx02rRYoznEc1m6Qi6aUIzjJ9DPKtU4BKClCxvhJip1bAkBMffugc+o2YYeOz1cK4olAtFgT0eo6pp2/cgJct4HQ4xms186KaJKM/vtsoH+6zyn32mXfkEhg6qSnNdg9oAAAAASUVORK5CYII=&quot;) no-repeat scroll 50% 50% / contain !important;" no_image="false" is_hidden="false">
+			<img src="" id="s3downbar_download_box_img_queue" class="download_data_box_img" is_hidden="true">
+			<img src="" id="s3downbar_download_box_picToShrink" pictoshrink="true" is_hidden="true" class="download_data_box_img">
+			<div id="s3downbar_download_box_filename" class="download_data_box_filename">Assignment2-BookClubRegistration(1).pdf</div>
+			<div id="s3downbar_download_box_progress_data" class="download_data_box_progress_data" is_hidden="true">
+				<div id="s3downbar_download_box_progress_percent" class="download_data_box_progress_percent" is_hidden="true">100%</div>
+				<div id="s3downbar_download_box_progress_remaintime" class="download_data_box_progress_remaintime" is_hidden="false">--:--</div>
+				<div id="s3downbar_download_box_progress_bytesReceived" class="download_data_box_progress_bytesReceived" is_hidden="true">160 KB</div>
+				<div id="s3downbar_download_box_progress_speed" class="download_data_box_progress_speed" is_hidden="false">-.--</div>
+			</div>
+		</div>
+	<div style="box-sizing: initial !important; position: fixed !important; z-index: 50 !important;"><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div id="download_data_tooltip" class="download_data_tooltip">
+		<div class="download_data_tooltip_head">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC6ElEQVRYhe2W208TQRSH/Ve5FEUkUYwa9cFookF3u6WLoQhao7Vc1FQDCASrRFqhTbxUa4siVSEoVG7VwrJsO/P5osSELd0qxhc2+T3N2Z1vz/mdObOvSlH4n9q3B7AHUElwtapSU0b/BKBGVfH19fE4kWAsmdxRg/E4p/3+3QXwDw+zbpo4eYSUfFxY4HBb2+4AHG5rYyabRUjJ5Owso4lESY0lk+TW1igUiwQfPXJUkrIAwXCYohAs5nI0+Xw7e0RR8A8NIaXkay7H0StX/g7goK6z8v07Qkr8Q0OOUlqjqrydnQVgLJksm4WSAC5N48nr1wC8eP+eOk1zbKwLXV3kDQMhJdrdu38G4A2FMEyTtY0Nmru7HW9epSjUeTw8TaWQP33ToOuVAdR7vbycngbg+dQU+z2ebTENus7Jq1c51tFBrdu9bf18MMi39XU2LQtvKER1JQDeUAjTsjAtizM3bmxbb2xtZTyVIm8YLOZyXB8e3lbralXlXiQCwIf5eeq9XucAT1MpAPrHx6m2MdH5YBAhxFbvzy8v22apTtP4vLSElLJkGW0BYuk0APeiUduXmru7Kf4GsLCyYgtwoKWFT9ksUkou9fY6B1Bv32azUMC0LM4FArb1j09OIqRk3TTpfPDANlMDsRgAU3NzlZWgQdd5lckA8OzdO1w2LejSNE5du8YRn8+2188GAuQNA6tQQK/UhL+MuLG5Sd4wuNjTU1Eb7vd4iL55g5SS9MwMh1pbK2vDKkWh1u0mkkwC8HJ62jYLpXQuENgaXu47d3aM3fEobrx8mVw+D0B7f7+jzV2atlW+WDpdNr7sMLo5MkJRCLKrqxzv6Cj7wZsPHyKkZH552VF8WYCm9nbmFhcRUpLIZAhFIiU1MDHBaj6PEILe0dHdGcdVisKtcBjD4YUEIPPlC8cc/L1jAJemcbGnh/vRKIPxeGnFYgTCYU50djo2bEWX0hq3m9oysjuQdg3gX2gPYA/gB+AqqFSeSrEpAAAAAElFTkSuQmCC" id="s3downbar_download_tooltip_img" class="download_data_tooltip_img" no_image="false">
+			<div id="s3downbar_download_tooltip_filename" class="download_data_tooltip_filename">Assignment2-BookClubRegistration(1).pdf </div>
+		</div>
+		<div class="download_data_tooltip_data_box" id="s3downbar_download_tooltip_data_box" is_hidden_progress="true" is_hidden_finish="false">
+			<table class="download_data_tooltip_data">
+				<tbody><tr id="s3downbar_download_tooltip_source_box"><td><div>Source:</div></td><td><input type="text" id="s3downbar_download_tooltip_source" class="download_data_tooltip_url" readonly="true" title="https://canvas.auckland.ac.nz/courses/62383/assignments/218205" value="https://canvas.auckland.ac.nz/courses/62383/assignments/218205"></td></tr>
+				<tr><td><div>From:</div></td><td><input type="text" id="s3downbar_download_tooltip_from" class="download_data_tooltip_url" readonly="true" title="https://cdn.inst-fs-syd-prod.inscloudgate.net/d7fd0f6a-fed8-4e14-911b-619509fd4324/Assignment2-BookClubRegistration.pdf?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii9kN2ZkMGY2YS1mZWQ4LTRlMTQtOTExYi02MTk1MDlmZDQzMjQvQXNzaWdubWVudDItQm9va0NsdWJSZWdpc3RyYXRpb24ucGRmIiwidGVuYW50IjoiY2FudmFzIiwidXNlcl9pZCI6IjYxOTkwMDAwMDAwMTg2NzUyIiwiaWF0IjoxNjIyMDg2OTgyLCJleHAiOjE2MjIxNzMzODJ9.-N-2VGdiB3GEKwMuzYSuC8E8sPy9EF_ULcCDcjjYA-rKwiPY6j-oPPVus6z66nmyVeUyBosw0-MFrKXb0-343g&amp;download=1&amp;content_type=application%2Fpdf" value="https://cdn.inst-fs-syd-prod.inscloudgate.net/d7fd0f6a-fed8-4e14-911b-619509fd4324/Assignment2-BookClubRegistration.pdf?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii9kN2ZkMGY2YS1mZWQ4LTRlMTQtOTExYi02MTk1MDlmZDQzMjQvQXNzaWdubWVudDItQm9va0NsdWJSZWdpc3RyYXRpb24ucGRmIiwidGVuYW50IjoiY2FudmFzIiwidXNlcl9pZCI6IjYxOTkwMDAwMDAwMTg2NzUyIiwiaWF0IjoxNjIyMDg2OTgyLCJleHAiOjE2MjIxNzMzODJ9.-N-2VGdiB3GEKwMuzYSuC8E8sPy9EF_ULcCDcjjYA-rKwiPY6j-oPPVus6z66nmyVeUyBosw0-MFrKXb0-343g&amp;download=1&amp;content_type=application%2Fpdf"></td></tr>
+				<tr><td><div>To:</div></td><td><div id="s3downbar_download_tooltip_to">C:\Users\erics\Downloads\Assignment2-BookClubRegistration(1).pdf</div></td></tr>
+				<tr class="download_progress"><td><div>Status:</div></td><td><div id="s3downbar_download_tooltip_status">160 KB / 1.04 MB ( -.-- )</div></td></tr>
+				<tr class="download_finish"><td><div>File Size:</div></td><td><div id="s3downbar_download_tooltip_size" filenotfound="false">1.04 MB</div></td></tr>
+				<tr class="download_finish" id="s3downbar_download_virus_scan_box" is_hidden="true"><td><div id="s3downbar_download_virus_scan_label">Virus scan:</div></td><td><a id="s3downbar_download_virus_scan" target="_blank"></a></td></tr>
+				<tr><td><div>Time Start:</div></td><td><div id="s3downbar_download_tooltip_timeStart">2021.05.27 - 23:41:16</div></td></tr>
+				<tr class="download_finish"><td><div>Time to Complete:</div></td><td><div id="s3downbar_download_tooltip_timeEnd">00:01</div></td></tr>
+				<tr class="download_progress"><td><div>Time Left:</div></td><td><div id="s3downbar_download_tooltip_timeLeft">--:--</div></td></tr>
+				<tr class="download_progress"><td><div>Percent Done:</div></td><td><div id="s3downbar_download_tooltip_percent">100%</div></td></tr>
+				<tr class="download_finish"><td><div>Average Speed:</div></td><td><div id="s3downbar_download_tooltip_speed">1.35 MB/s</div></td></tr>
+			</tbody></table>
+			<div class="download_data_tooltip_img_preview_box download_finish"><div class="download_data_tooltip_img_box">
+				<img src="" id="s3downbar_download_tooltip_img_preview" is_hidden="true" class="download_data_tooltip_img_preview download_finish" width="120" height="120">
+				<div id="s3downbar_download_tooltip_img_size" class="download_data_tooltip_img_size"></div>
+			</div></div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_progress" is_hidden="true">
+			<div>mouse double click: download pause/resume</div>
+			<div>mouse middle click: download cancel</div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_finish" is_hidden="false">
+			<div>mouse double click: open file</div>
+			<div>mouse double click + Ctrl: open dir</div>
+			<div style="padding-top: 4px !important;">mouse middle click: delete from list</div>
+			<div>mouse middle click + Ctrl: delete from system</div>
+			<div style="padding-top: 4px !important;">press mouse button + Ctrl: drag &amp; drop</div>
+		</div>
+	</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div></div><div id="s3db_A87FF679A2F3E71D9181A67B7542122C" class="download_data_box db_finishedHbox" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;" click_handle="finished_click_handle">
+		<div class="download_data_box_iframe_box"><div id="s3downbar_download_box_iframe" is_hidden="true" class="download_data_box_iframe"></div></div>
+		<div id="s3downbar_download_box_progressremainder" class="download_data_box_progressremainder" is_hidden="true"></div>
+		<div id="s3downbar_download_box_progress" class="download_data_box_progress" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important; width: 100% !important; background-color: rgb(112, 143, 181) !important; border-right: 1px solid rgb(255, 0, 0) !important;" is_hidden="true"></div>
+		<div id="s3downbar_download_box_data" class="download_data_box_data">
+			<img src="W3.CSS%20Template_files/delete2.png" id="s3downbar_download_box_img" class="download_data_box_img" style="background: rgba(0, 0, 0, 0) url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOElEQVQ4jYXR3U7TYBgHcC7BS/ESvITFDI+9BBPjmVEQiSYMxr6QrwBxW9nWdh2OIZZ0E/cBbGxtlRQInfZ4J0vbd1s/Dv6eSMdS1Cf5n7zJ/5f3yTM19Wck+TtEUUK7I6J13kaz2cLpWRMnJ6eo1xuoVmuo1er9SqXycOq+EUUJruv+NbIso9v9iePjb/cj7Y4I13UxGo3ujSzL6PV66Ha7KJfLfR/QOm//F+A4DhzHgf/Cwwc0m61/ArdxXReHnw/9wOlZcwIwCYFumBPl4XAI13VxUDrwA6GlMBLrm8gXCri6usZiJIYklZkoD4dDOI6D/f19P7AcjUFRNdRbIkq8AEXVsLm9M1EeDAZwHAfFT8Ux8Gb+PRdf3ahEP6xBUTUI1YYHCNUGEqtrWIzEMBgMQAiB4zjYKxTGwLPnL8TOxSUUVUM6x4I/OoIkSQgthaGoGn5cdxEKR0AIASEEtm2Dy3NjIBAIPJidf/dLUTUIla/ezpIkocQLKPECbm5uQAiBaZqwbRssw9wBgsFH4dhKX1E1UFna25nnjyBUG6i3RNAMC9M0YRgGLMsCnaPHwMJyFIqqeTtvbO1gr1hCOsd47/HVDRiGAV3XYVkWcpnsnR9MTz99HHwyMzv31ivcJrG2CTafx8dkCrque0CG2vWfMRZPQFE1UHQe61vb6Fxconxcg23bsCzLy2g0ApVK+4FINIaF5SgSKytgGRYvX8/g1ewcWIYBnaORy2SRoXZBpdJIJZMe8Bsbza8Gt1jCUQAAAABJRU5ErkJggg==&quot;) no-repeat scroll 50% 50% / contain !important;" no_image="false" is_hidden="false">
+			<img src="" id="s3downbar_download_box_img_queue" class="download_data_box_img" is_hidden="true">
+			<img src="" id="s3downbar_download_box_picToShrink" pictoshrink="true" is_hidden="true" class="download_data_box_img">
+			<div id="s3downbar_download_box_filename" class="download_data_box_filename">w3.css</div>
+			<div id="s3downbar_download_box_progress_data" class="download_data_box_progress_data" is_hidden="true">
+				<div id="s3downbar_download_box_progress_percent" class="download_data_box_progress_percent" is_hidden="true">100%</div>
+				<div id="s3downbar_download_box_progress_remaintime" class="download_data_box_progress_remaintime" is_hidden="false">--:--</div>
+				<div id="s3downbar_download_box_progress_bytesReceived" class="download_data_box_progress_bytesReceived" is_hidden="true">5 KB</div>
+				<div id="s3downbar_download_box_progress_speed" class="download_data_box_progress_speed" is_hidden="false">-.--</div>
+			</div>
+		</div>
+	<div style="box-sizing: initial !important; position: fixed !important; z-index: 50 !important;"><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div id="download_data_tooltip" class="download_data_tooltip">
+		<div class="download_data_tooltip_head">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEgElEQVRYhe3W2XLaVhzH8TxCHqGPkEfoI+QR8gi97pLJMmmTtI7Ti0xnMk2bMWBjNsXGxoGCZZvNrFpYgwRCElsgQRhjJMF4fr2IIWkbMDK57Jn5z+ju+xmNzjm6du3/9ZnFMBnQDAuKZpCmaKRSFJKpNBLJFOKJJGLxBGKxOKLHMUSjx4hEogiHIwiFwggGQwiFwgpJhm9cGUAzLMbjseE5Pz8HwzDg+TKCwaBCkuTVEBTNYDweQ1VVQzMej8EwDJrNJniex+HB4dUQaYpeCtBut6cIkiQVn89nDJFKUUsBut3uFMFxHAKBfcUQIJlKLwUgCOIfs7e3B0OARDJ1JcAslNfrNQaIJ5JfBDAcDjEej/F677UxQCyeWBowHA6nAI/HYxAQiy8FmMSHwyFGoxE8uwYB0ePYlQGfxs/OzjAajbC7s2sMEIlEUZVkKEpvqfgEsOPeWQzw9p1yU+50CY+fhNvrR4pmoaoqTvqnqMp1DM7ODMUHgwFGoxHc2+7FAJVGmyxJTSTZHNxeP4idPdTedhBncjimMmAKpc8iZsUngK2trdkAgiSvb/sCt9xeP1GsiEpRrIOTGogk0kiyOZTEBjipgYNoHL6DINqddwvHB4MBdF3HFvFqNqDa6hA5TkCCyYKTmyhW6yhczOS5XGvB7fXD7fUbip+enkLXdRAEMRtQrrU+xoQaCkIN+X9NplSBy+2B1fkKcq2+cHwKcLlmA8Rm+8+CUP8YrNQQjFOIMXnkKjXkKjUUq3WEExR2fAF4fAEovZOF4v1+H7quw+V0zgYIgnKdr7WEXEVGriLjpcWKBw9/hvPVNqRWB9myjGxZRr4iI50tIp0tIBhLIXAUuTQ+ATjsjvm7gJNb5CT03Q93cOfeAxweBaFpGsq1FrJlCZmLyfIi3N4A3N4AqpI8N97v96FpGuw2+5w30Gx+9UZsCNmyhGM6j2+/v43bd+/D5nBBVVW87/WR4SVkeAksLyFXkfF6/+jDFq035sZPTk6gaRpsm7bZgGK1rkwCGV7C7Tv3cPf+j3i8sop2p4OhqoLlRLCciAwvwR+M4sWaBd1u99L4FGDdnA3ICzWK5cVpxLzpxOMnT/Hrs99AbO/idDAAw4lgOBFUsQzfQQgut2eheK/Xg6ZpsG5Y5wEaN/MVmczwksJwIpI5DhsOAiarDY7tXfx1GAJdqoIuVZEu8CDDMRxGE3jfVS6NTwAblvXLj+K80LjJcCLoUhXJPI/9cBz+YBRROjcFsJwIpsgjnXsDusChq/Tmxnu9D5fZusWy2F2QKYvUJDZrWE6E/yiC39csSNPM3LiiKFBVFRazeTEAy4vCrDBTEsBcfCfPnv8By6Yduq5D13Vomvaf+fTINptMiwEYTlToUhWhFItQkgVzEY8xBTx68hTPX5rg2z/C+oYVhMsFl9MJh90Bu80O26YNNusmrBtWbFjWsW6xwGI2w2wywbS2thggVxJupPKc8uz5C+KnldVbLCeRdKmK/WgSD1dW8XBl1difzbKL4oSvp4BfVqlHK6vffOnG38tISIR3I7v0AAAAAElFTkSuQmCC" id="s3downbar_download_tooltip_img" class="download_data_tooltip_img" no_image="false">
+			<div id="s3downbar_download_tooltip_filename" class="download_data_tooltip_filename">w3.css </div>
+		</div>
+		<div class="download_data_tooltip_data_box" id="s3downbar_download_tooltip_data_box" is_hidden_progress="true" is_hidden_finish="false">
+			<table class="download_data_tooltip_data">
+				<tbody><tr id="s3downbar_download_tooltip_source_box"><td><div>Source:</div></td><td><input type="text" id="s3downbar_download_tooltip_source" class="download_data_tooltip_url" readonly="true" title="https://www.w3schools.com/w3css/w3css_downloads.asp" value="https://www.w3schools.com/w3css/w3css_downloads.asp"></td></tr>
+				<tr><td><div>From:</div></td><td><input type="text" id="s3downbar_download_tooltip_from" class="download_data_tooltip_url" readonly="true" title="https://www.w3schools.com/w3css/4/w3.css" value="https://www.w3schools.com/w3css/4/w3.css"></td></tr>
+				<tr><td><div>To:</div></td><td><div id="s3downbar_download_tooltip_to">C:\Users\erics\Downloads\w3.css</div></td></tr>
+				<tr class="download_progress"><td><div>Status:</div></td><td><div id="s3downbar_download_tooltip_status">5 KB / 5 KB ( -.-- )</div></td></tr>
+				<tr class="download_finish"><td><div>File Size:</div></td><td><div id="s3downbar_download_tooltip_size" filenotfound="true">File not found</div></td></tr>
+				<tr class="download_finish" id="s3downbar_download_virus_scan_box" is_hidden="true"><td><div id="s3downbar_download_virus_scan_label">Virus scan:</div></td><td><a id="s3downbar_download_virus_scan" target="_blank"></a></td></tr>
+				<tr><td><div>Time Start:</div></td><td><div id="s3downbar_download_tooltip_timeStart">2021.05.28 - 00:29:48</div></td></tr>
+				<tr class="download_finish"><td><div>Time to Complete:</div></td><td><div id="s3downbar_download_tooltip_timeEnd">&lt;00:01</div></td></tr>
+				<tr class="download_progress"><td><div>Time Left:</div></td><td><div id="s3downbar_download_tooltip_timeLeft">--:--</div></td></tr>
+				<tr class="download_progress"><td><div>Percent Done:</div></td><td><div id="s3downbar_download_tooltip_percent">100%</div></td></tr>
+				<tr class="download_finish"><td><div>Average Speed:</div></td><td><div id="s3downbar_download_tooltip_speed">Unknown</div></td></tr>
+			</tbody></table>
+			<div class="download_data_tooltip_img_preview_box download_finish"><div class="download_data_tooltip_img_box">
+				<img src="" id="s3downbar_download_tooltip_img_preview" is_hidden="true" class="download_data_tooltip_img_preview download_finish" width="120" height="120">
+				<div id="s3downbar_download_tooltip_img_size" class="download_data_tooltip_img_size"></div>
+			</div></div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_progress" is_hidden="true">
+			<div>mouse double click: download pause/resume</div>
+			<div>mouse middle click: download cancel</div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_finish" is_hidden="false">
+			<div>mouse double click: open file</div>
+			<div>mouse double click + Ctrl: open dir</div>
+			<div style="padding-top: 4px !important;">mouse middle click: delete from list</div>
+			<div>mouse middle click + Ctrl: delete from system</div>
+			<div style="padding-top: 4px !important;">press mouse button + Ctrl: drag &amp; drop</div>
+		</div>
+	</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div></div><div id="s3db_E4DA3B7FBBCE2345D7772B0674A318D5" class="download_data_box db_progressStack" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;" click_handle="progress_click_handle">
+		<div class="download_data_box_iframe_box"><div id="s3downbar_download_box_iframe" is_hidden="true" class="download_data_box_iframe"></div></div>
+		<div id="s3downbar_download_box_progressremainder" class="download_data_box_progressremainder" is_hidden="false"></div>
+		<div id="s3downbar_download_box_progress" class="download_data_box_progress" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) !important;" is_hidden="false"></div>
+		<div id="s3downbar_download_box_data" class="download_data_box_data">
+			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" id="s3downbar_download_box_img" class="download_data_box_img" no_image="true" is_hidden="true">
+			<img src="" id="s3downbar_download_box_img_queue" class="download_data_box_img" is_hidden="true">
+			<img src="" id="s3downbar_download_box_picToShrink" pictoshrink="true" is_hidden="true" class="download_data_box_img">
+			<div id="s3downbar_download_box_filename" class="download_data_box_filename">W3.CSS Template.htm</div>
+			<div id="s3downbar_download_box_progress_data" class="download_data_box_progress_data" is_hidden="false">
+				<div id="s3downbar_download_box_progress_percent" class="download_data_box_progress_percent" is_hidden="true">Unk.</div>
+				<div id="s3downbar_download_box_progress_remaintime" class="download_data_box_progress_remaintime" is_hidden="false">Unk.</div>
+				<div id="s3downbar_download_box_progress_bytesReceived" class="download_data_box_progress_bytesReceived" is_hidden="true">-.--</div>
+				<div id="s3downbar_download_box_progress_speed" class="download_data_box_progress_speed" is_hidden="false">-.--</div>
+			</div>
+		</div>
+	<div style="box-sizing: initial !important; position: fixed !important; z-index: 50 !important;"><div style="box-sizing: initial !important;" class="tooltip_box" is_top="false"><div id="download_data_tooltip" class="download_data_tooltip">
+		<div class="download_data_tooltip_head">
+			<img src="data:image/png;base64,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" id="s3downbar_download_tooltip_img" class="download_data_tooltip_img" no_image="false">
+			<div id="s3downbar_download_tooltip_filename" class="download_data_tooltip_filename">W3.CSS Template.htm </div>
+		</div>
+		<div class="download_data_tooltip_data_box" id="s3downbar_download_tooltip_data_box" is_hidden_progress="false" is_hidden_finish="true">
+			<table class="download_data_tooltip_data">
+				<tbody><tr id="s3downbar_download_tooltip_source_box" is_hidden="true"><td><div>Source:</div></td><td><input type="text" id="s3downbar_download_tooltip_source" class="download_data_tooltip_url" readonly="true"></td></tr>
+				<tr><td><div>From:</div></td><td><input type="text" id="s3downbar_download_tooltip_from" class="download_data_tooltip_url" readonly="true" title="https://www.w3schools.com/w3css/tryw3css_templates_red.htm" value="https://www.w3schools.com/w3css/tryw3css_templates_red.htm"></td></tr>
+				<tr><td><div>To:</div></td><td><div id="s3downbar_download_tooltip_to">C:\Users\erics\Documents\Projects\se350Assignment2\W3.CSS Template.htm</div></td></tr>
+				<tr class="download_progress"><td><div>Status:</div></td><td><div id="s3downbar_download_tooltip_status">-.-- / Unknown ( -.-- )</div></td></tr>
+				<tr class="download_finish"><td><div>File Size:</div></td><td><div id="s3downbar_download_tooltip_size" filenotfound="true">File not found</div></td></tr>
+				<tr class="download_finish" id="s3downbar_download_virus_scan_box" is_hidden="true"><td><div id="s3downbar_download_virus_scan_label">Virus scan:</div></td><td><a id="s3downbar_download_virus_scan" target="_blank"></a></td></tr>
+				<tr><td><div>Time Start:</div></td><td><div id="s3downbar_download_tooltip_timeStart">2021.05.28 - 11:10:59</div></td></tr>
+				<tr class="download_finish"><td><div>Time to Complete:</div></td><td><div id="s3downbar_download_tooltip_timeEnd">Unknown</div></td></tr>
+				<tr class="download_progress"><td><div>Time Left:</div></td><td><div id="s3downbar_download_tooltip_timeLeft">Unknown</div></td></tr>
+				<tr class="download_progress"><td><div>Percent Done:</div></td><td><div id="s3downbar_download_tooltip_percent">Unknown</div></td></tr>
+				<tr class="download_finish"><td><div>Average Speed:</div></td><td><div id="s3downbar_download_tooltip_speed">Unknown</div></td></tr>
+			</tbody></table>
+			<div class="download_data_tooltip_img_preview_box download_finish"><div class="download_data_tooltip_img_box">
+				<img src="" id="s3downbar_download_tooltip_img_preview" is_hidden="true" class="download_data_tooltip_img_preview download_finish" width="120" height="120">
+				<div id="s3downbar_download_tooltip_img_size" class="download_data_tooltip_img_size"></div>
+			</div></div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_progress" is_hidden="false">
+			<div>mouse double click: download pause/resume</div>
+			<div>mouse middle click: download cancel</div>
+		</div>
+		<div class="download_data_tooltip_hint" id="s3downbar_download_tooltip_hint_finish" is_hidden="true">
+			<div>mouse double click: open file</div>
+			<div>mouse double click + Ctrl: open dir</div>
+			<div style="padding-top: 4px !important;">mouse middle click: delete from list</div>
+			<div>mouse middle click + Ctrl: delete from system</div>
+			<div style="padding-top: 4px !important;">press mouse button + Ctrl: drag &amp; drop</div>
+		</div>
+	</div></div><div style="box-sizing: initial !important;" class="tooltip_arrow" is_top="false"></div></div></div></div></div></div></body></html>
