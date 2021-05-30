@@ -1,5 +1,5 @@
 .custom-color {
-    color:#F4A900
+    color:#F4A900!important
 }
 
 .custom-color-text-with-background {
@@ -22,14 +22,39 @@
     background-color:#F4A900!important;
 }
 
-.custom-contrast-color {
-    color:#004BF4
+.hover-custom-color-text-AAA:hover {
+    color:#F4A900!important;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    /*-moz-box-shadow: 1px 1px 3px 2px #f4a900;*/
-    /*-webkit-box-shadow: 1px 1px 3px 2px #f4a900;*/
-    /*box-shadow:         1px 1px 3px 2px #f4a900;*/
+.custom-contrast-color {
+    color:#004BF4!important;
+}
+
+.custom-color-shadow {
+    -moz-box-shadow: 1px 1px 3px 2px #f4a900;
+    box-shadow:1px 1px 3px 2px #f4a900;
+    -webkit-box-shadow: 1px 1px 3px 2px #f4a900;
+}
+
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    flex-basis: 33%;
+    order: 1;
+    padding: 10px 20px;
+}
+
+.flex-column-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
 }
