@@ -29,10 +29,10 @@
     <div style="padding-bottom:25px">
         <hr style = "height:2px;border:none;background-color:#FFFFFF;width:82%;margin:auto;" >
     </div>
-    <a href="#" id="trigger-modal" class="w3-button custom-background-color custom-contrast-color-AAA w3-padding-large w3-large w3-margin-top custom-button" onclick="document.getElementById('popup').style.display='block'">Register</a>
+    <a href="#" id="trigger-modal" class="w3-button custom-background-color custom-contrast-color-AAA w3-padding-large w3-large w3-margin-top custom-button">Register</a>
 </header>
 
-<div class="flex-container" style="padding-top: 20px;">
+<div class="flex-container" style="padding: 40px 10px 124px;">
     <div class = flex-item>
         <h3 style = padding-bottom:12px>Latest News</h3>
         <p>Lorem ipsum dolor sit amet, consectetur
@@ -74,23 +74,21 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center custom-background-contrast-color">
-    <div class="w3-xlarge w3-padding-32 custom-color">
+<footer class="w3-container w3-center custom-background-contrast-color">
+    <div class="w3-jumbo w3-padding-16 custom-color">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
 </footer>
 
 <!--Registration form: Modal popup-->
+<!--Template for the original modal window is taken from textbase.html from tutorial 10-->
+<!--Updated to be inline with design of this page and original-->
 <div id="popup" class="w3-modal" style="z-index:4">
     <div class="w3-modal-content w3-animate-zoom">
         <div class="w3-container w3-padding custom-color-text-with-background">
-       <span onclick="document.getElementById('popup').style.display='none'"
-             class="w3-button w3-red w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
+       <span onclick="closePopup()"
+             class="w3-button w3-red w3-right w3-xlarge"><i class="fa fa-remove"></i></span>
             <h2>Register</h2>
         </div>
         <div id="bookclubrego" class="w3-panel">
@@ -124,8 +122,8 @@
                 </div>
             </form>
             <div class="w3-section">
-                <a class="w3-button w3-red" onclick="document.getElementById('popup').style.display='none';ClearFields()">Cancel <i class="fa fa-remove"></i></a>
-                <a class="w3-button w3-light-grey w3-right" onclick="document.getElementById('popup').style.display='none';ClearFields()">Register <i class="fa fa-arrow-right"></i></a>
+                <a class="w3-button w3-red" onclick="closePopup()">Cancel <i class="fa fa-remove"></i></a>
+                <a class="w3-button w3-light-grey w3-right" onclick="closePopup()">Register <i class="fa fa-arrow-right"></i></a>
             </div>
 
         </div>
@@ -133,7 +131,17 @@
 </div>
 
 <script>
-    function ClearFields() {
+    var modal = document.getElementById("popup");
+
+    var btn = document.getElementById("trigger-modal");
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    //Closes the modal popup and clears fields
+    function closePopup() {
+        document.getElementById('popup').style.display='none';
         document.getElementById("given name").value = "";
         document.getElementById("surname").value = "";
         document.getElementById("username").value = "";
